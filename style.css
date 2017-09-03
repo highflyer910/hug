@@ -75,7 +75,6 @@ span {
     z-index:4;
 }
 
-
 .face {
     width:180px;
     position:relative;
@@ -152,9 +151,6 @@ span {
 	transition: all .1s ease-in-out;
 }
 
-
-
-
 .hug {
 	-webkit-animation: hug .7s;
 	-moz-animation: hug .7s;
@@ -162,7 +158,6 @@ span {
 	-o-animation: hug .7s;
 	animation: hug .7s;
 }
-
 
 button {
 	padding: 10px 20px;

@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	(function( dude, $, undefined ) {
 	    
-	    var health = 10;
+	    var peace = 10;
 	    var love = 10;
 	    var happiness = 10;
 	 
@@ -20,14 +20,14 @@ $(document).ready(function () {
 	     
 	    function decreaseLife(action) {
 	    	if  (action == 'hug') {
-	    		health -= randomInt(1,2);	    	
+	    		peace -= randomInt(1,2);	    	
 		    	happiness -= randomInt(0,2);	    		
 	    	}
 
 	    	updateStats();
 	    	styleDude();
 
-	    	if (health <= 0 || happiness <= 0) {
+	    	if (peace <= 0 || happiness <= 0) {
 	    		$('#module').show();
 	    	}	    	
 	    };
@@ -54,12 +54,12 @@ $(document).ready(function () {
 	    }
 
 	    function updateStats() {
-	    	if (health <= 0 || love <= 0 || happiness <= 0) {
-	    		$('#health').text('Health: XXX');
+	    	if (peace <= 0 || love <= 0 || happiness <= 0) {
+	    		$('#peace').text('Peace: XXX');
 	    		$('#love').text('Love: XXX');
 	    		$('#happiness').text('Happiness: XXX');
 	    	} else {
-		    	$('#health').text('Health: ' + health);
+		    	$('#peace').text('Peace: ' + peace);
 		    	$('#love').text('Love: ' + love);
 		    	$('#happiness').text('Happiness: ' + happiness);	    		
 	    	}
