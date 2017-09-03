@@ -41,15 +41,15 @@ $(document).ready(function () {
 	    	
 
 	    	if (love >= 25) {
-	    		$('.dude-body').css({backgroundColor: '#d6003d'});
+	    		$('.dude-body').css({backgroundColor: '#770608'});
 	    	} else if (love >=18) {
-	    		$('.dude-body').css({backgroundColor: '#ff749c'});
+	    		$('.dude-body').css({backgroundColor: '#A7090B'});
 	    	} else if (love >= 14) {
-	    		$('.dude-body').css({backgroundColor: '#ff749c'});	    		
+	    		$('.dude-body').css({backgroundColor: '#F32326'});	    		
 	    	} else if (love < 14) {
-	    		$('.dude-body').css({backgroundColor: '#555'});	    			    		
+	    		$('.dude-body').css({backgroundColor: '#F53B3E'});	    			    		
 	    	} else {
-	    		$('.dude-body').css({backgroundColor: '#d8e6d4'});	    			    			    		
+	    		$('.dude-body').css({backgroundColor: '#F65355'});	    			    			    		
 	    	}
 	    }
 

@@ -3,8 +3,8 @@ body {
 	font-size: 20px;
 	letter-spacing: 1.5px;
     text-align: center;
-    background-color: #2A363B;
-    color: #FECEA8;
+    background-color: #6D9788;
+    color: #E6E1C2;
 }
 
 #container {
@@ -18,8 +18,8 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #121212;
-	color: #d6003d;
+	background-color: #1E2528;
+	color: #7E1C13;
 	text-align: center;
 	z-index: 10;
 }
@@ -31,9 +31,9 @@ h1 {
 
 a {
 	margin: 0 10px;
-	font-size: 16px;
+	font-size: 18px;
 	text-decoration: none;
-	color: #aaa;
+	color: #E6E1C2;
 }
 
 
@@ -54,7 +54,8 @@ span {
     width: 500px;
     height: 400px;
     margin:0 auto;
-    border: 3px solid #FECEA8;
+    background-color: #1E2528;
+    border: 5px solid #E6E1C2;
     text-align:center;
     position:relative;
 }
@@ -65,7 +66,7 @@ span {
     display:inline-block;
 }
 .dude-body {
-    background:#E84A5F;
+    background:#F76B6D;
     margin:0 auto;
     width:200px;
     height:200px;
@@ -89,7 +90,7 @@ span {
    position:absolute;
    width:18px;
    height:40px;
-   background:white;
+   background:#E6E1C2;
    top:35px;
    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
@@ -98,7 +99,7 @@ span {
     display:block;
     width:10px;
     height:10px;
-    background:black;
+    background:#1E2528;
     position: absolute;
     left:4px;
     top:10px;
@@ -114,7 +115,7 @@ span {
 .mouth {
     width:45px;
     height:12px;
-    background-color:black;
+    background-color:#440109;
     position:relative;
     top:80px;
     left:80px;
@@ -168,14 +169,15 @@ button {
 	margin-top: 1%;
 	border: none;
 	border-radius: none;
-	font-size: 20px;
-	color: #FFFFFA;
-	background-color: #FF847C;
+	font-size: 18px;
+	font-weight: bold;
+	color: #7E1C13;
+	background-color:#E6E1C2;
 	cursor: pointer;
 }
 
 button:active {
-	background-color: #0b829f;	
+	background-color: #bcb79a;	
 }
 
 
