@@ -128,6 +128,24 @@ span {
     transition: all .1s ease-in-out;
 }
 
+.left-foot, .right-foot{
+    position: absolute;
+  bottom: -10px;
+  height: 12px;
+  width: 35px;
+  background-color: #1E2528;
+  border: 2px solid #E6E1C2;
+  border-radius: 30%;
+}
+
+.left-foot {
+  left: 40px;
+}
+.right-foot {
+  right: 40px;
+}
+
+
 .frown {
 	left: 90px;
 	height: 35px;
